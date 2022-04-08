@@ -40,7 +40,7 @@ function ItemEdit() {
     event.preventDefault();
 
     axios({
-      url: `http://localhost:3000/api/items/${id}`,
+      url: `${apiUrl}/items/${id}`,
       method: "PUT",
       data: item,
     })
