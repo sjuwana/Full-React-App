@@ -1,6 +1,6 @@
 let apiUrl;
 const apiUrls = {
-  production: "http://localhost:3000/api",
+  production: "https://react-client3-app.herokuapp.com/api",
   development: "http://localhost:3000/api",
 };
 
